@@ -66,7 +66,7 @@ export const Navbar = () => {
 				</ul>
 			</NavbarContent>
 
-			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+			<NavbarContent className="lg:hidden basis-1 pl-4" justify="end">
 				<NavbarMenuToggle className="text-green-800" />
 			</NavbarContent>
 

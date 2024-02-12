@@ -18,7 +18,7 @@ export default function Home() {
 					Productores de huevos en Gran Canaria. Cría de gallinas ponedoras.
 				</h2>
 				<Link
-					href={siteConfig.links.docs}
+					href="/contacto"
 					className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-12 font-bold uppercase" })}
 				>
 					Contáctanos
@@ -27,7 +27,7 @@ export default function Home() {
 
 			<div className="bg-white flex w-full justify-center">
 				<div className="lg:flex justify-center max-w-6xl my-8 py-8">
-					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto">
+					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto justify-center">
 						<Image
 							as={NextImage}
 							isBlurred
@@ -48,7 +48,7 @@ export default function Home() {
 								Recogemos y repartimos nuestra producción diariamente. De esta forma podemos asegurar que nuestro producto es fresco y siempre se encuentra en perfecto estado de conservación.
 							</p>
 							<Link
-								href={siteConfig.links.docs}
+								href="/huevos"
 								className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-6 font-bold uppercase" })}
 							>
 								Saber más
@@ -68,14 +68,14 @@ export default function Home() {
 								Realizamos cría de gallinas para otras explotaciones ganaderas bajo encargo. También vendemos al por menor a particulares, tiendas y pequeñas granjas.
 							</p>
 							<Link
-								href={siteConfig.links.docs}
+								href="/gallinas"
 								className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-6 font-bold uppercase" })}
 							>
 								Saber más
 							</Link>
 						</div>
 					</div>
-					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto">
+					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto justify-center">
 						<Image
 							as={NextImage}
 							isBlurred
