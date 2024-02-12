@@ -8,8 +8,8 @@ export const Footer = () => {
         <footer className="w-full flex items-center justify-center py-3 backdrop-blur-lg bg-orange-950 opacity-90 text-green-800 font-bold">
             <div className="max-w-6xl lg:flex items-center justify-center">
                 <div className="grow min-w-80 px-12">
-                    <div className="flex m-4">
-                        <div className="mt-4 mx-4">
+                    <div className="flex m-4 items-center align-middle">
+                        <div className="mx-4">
                             <ScheduleLogo />
                         </div>
                         <div>
@@ -19,8 +19,8 @@ export const Footer = () => {
                             <div>08:00 - 11:00</div>
                         </div>
                     </div>
-                    <div className="flex m-4">
-                        <div className="mt-1 mx-4">
+                    <div className="flex m-4 items-center align-middle">
+                        <div className="mx-4">
                             <PhoneLogo />
                         </div>
                         <div>
@@ -36,8 +36,8 @@ export const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex m-4">
-                        <div className="mt-1 mx-4">
+                    <div className="flex m-4 items-center align-middle">
+                        <div className="mx-4">
                             <EmailLogo />
                         </div>
                         <div>
@@ -46,7 +46,7 @@ export const Footer = () => {
                                     isExternal
                                     className="flex items-center gap-1 text-current"
                                     href="mailto:info@avicolasanantonio.com"
-                                    title="phone"
+                                    title="email"
                                 >
                                     <p className="text-primary">info@avicolasanantonio.com</p>
                                 </Link>
