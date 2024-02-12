@@ -1,5 +1,5 @@
 import { Link } from "@nextui-org/link";
-import { PhoneLogo, ScheduleLogo } from "./icons";
+import { EmailLogo, PhoneLogo, ScheduleLogo } from "./icons";
 import { Image } from "@nextui-org/image";
 import NextImage from "next/image";
 
@@ -36,6 +36,23 @@ export const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="flex m-4">
+                        <div className="mt-1 mx-4">
+                            <EmailLogo />
+                        </div>
+                        <div>
+                            <div>
+                                <Link
+                                    isExternal
+                                    className="flex items-center gap-1 text-current"
+                                    href="mailto:info@avicolasanantonio.com"
+                                    title="phone"
+                                >
+                                    <p className="text-primary">info@avicolasanantonio.com</p>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="min-w-80 px-12">
                     <Image
@@ -43,7 +60,7 @@ export const Footer = () => {
                         width={300}
                         height={200}
                         src="/logo.png"
-                        alt="Foto de huevos frescos"
+                        alt="Logo de la empresa"
                     >
                     </Image>
                     <div className="text-center my-6">
