@@ -46,7 +46,9 @@ export const Footer = () => {
                         alt="Foto de huevos frescos"
                     >
                     </Image>
-                    Granja Avícola San Antonio C.B.
+                    <div className="text-center my-6">
+                        Granja Avícola San Antonio C.B.
+                    </div>
                 </div>
             </div>
         </footer>
