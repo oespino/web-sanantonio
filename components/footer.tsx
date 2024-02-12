@@ -5,7 +5,7 @@ import NextImage from "next/image";
 
 export const Footer = () => {
     return (
-        <footer className="w-full flex items-center justify-center py-3 backdrop-blur-lg bg-background/70 text-green-800">
+        <footer className="w-full flex items-center justify-center py-3 backdrop-blur-lg bg-orange-950 opacity-90 text-green-800 font-bold">
             <div className="max-w-6xl lg:flex items-center justify-center">
                 <div className="grow min-w-80 px-12">
                     <div className="flex m-4">
