@@ -13,50 +13,42 @@ export const siteConfig = {
 			href: "/docs",
 		},
 		{
-			label: "Pricing",
-			href: "/pricing",
+			label: "Huevos",
+			href: "/huevos",
 		},
 		{
-			label: "Blog",
-			href: "/blog",
+			label: "Gallinas",
+			href: "/gallinas",
 		},
 		{
-			label: "About",
-			href: "/about",
-		}
+			label: "Sobre nosotros",
+			href: "/sobre-nosotros",
+		},
+		{
+			label: "Contacto",
+			href: "/contacto",
+		},
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Home",
+			href: "/",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Huevos",
+			href: "/huevos",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+			label: "Gallinas",
+			href: "/gallinas",
 		},
 		{
-			label: "Team",
-			href: "/team",
+			label: "Sobre nosotros",
+			href: "/sobre-nosotros",
 		},
 		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
+			label: "Contacto",
+			href: "/contacto",
 		},
 	],
 	links: {

@@ -19,7 +19,7 @@ export default function Home() {
 				</h2>
 				<Link
 					href={siteConfig.links.docs}
-					className={buttonStyles({ radius: "none", variant: "flat", class: "bg-green-800 px-10 py-6 mt-12 font-bold uppercase" })}
+					className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-12 font-bold uppercase" })}
 				>
 					Contáctanos
 				</Link>
@@ -40,13 +40,19 @@ export default function Home() {
 						</Image>
 					</div>
 					<div className="md:w-1/2 px-12 flex mx-auto">
-						<div className="mx-auto my-auto">
+						<div className="mx-auto my-auto text-center md:text-left ">
 							<h2 className="text-green-800 my-4 font-bold text-2xl">
 								Huevos frescos
 							</h2>
 							<p className="text-green-800">
 								Recogemos y repartimos nuestra producción diariamente. De esta forma podemos asegurar que nuestro producto es fresco y siempre se encuentra en perfecto estado de conservación.
 							</p>
+							<Link
+								href={siteConfig.links.docs}
+								className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-6 font-bold uppercase" })}
+							>
+								Saber más
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -54,12 +60,19 @@ export default function Home() {
 			<div className="bg-amber-100 flex w-full justify-center">
 				<div className="md:flex justify-center max-w-6xl my-8 py-8">
 					<div className="md:w-1/2 px-12 flex mx-auto">
-						<div className="mx-auto my-auto">
+						<div className="mx-auto my-auto text-center md:text-left ">
 							<h2 className="text-green-800 my-4 font-bold text-2xl">
 								Cría de gallinas
 							</h2>
 							<p className="text-green-800">
-								Realizamos cría de gallinas para otras explotaciones ganaderas bajo encargo. También vendemos al por menor a particulares, tiendas y pequeñas granjas.							</p>
+								Realizamos cría de gallinas para otras explotaciones ganaderas bajo encargo. También vendemos al por menor a particulares, tiendas y pequeñas granjas.
+							</p>
+							<Link
+								href={siteConfig.links.docs}
+								className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-6 font-bold uppercase" })}
+							>
+								Saber más
+							</Link>
 						</div>
 					</div>
 					<div className="md:w-1/2 my-12 px-12 md:px-0 flex mx-auto">
