@@ -9,9 +9,9 @@ import {
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
+import { Image } from "@nextui-org/image";
+import NextImage from "next/image";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
@@ -19,16 +19,13 @@ import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
 
-import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	TwitterIcon,
 	GithubIcon,
 	DiscordIcon,
 	HeartFilledIcon,
-	SearchIcon,
 } from "@/components/icons";
 
-import { Logo } from "@/components/icons";
 import { useReducer } from "react";
 
 export const Navbar = () => {
@@ -36,23 +33,30 @@ export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useReducer((current) => !current, false);
 
 	return (
-		<NextUINavbar maxWidth="xl" position="sticky" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+		<NextUINavbar maxWidth="xl" position="sticky" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} className="bg-amber-100">
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
-						<Logo />
-						<p className="font-bold text-inherit">ACME</p>
+						<Image
+							as={NextImage}
+							radius="none"
+							width="200"
+							height="50"
+							alt="Logo"
+							src="/logo.png"
+						/>
 					</NextLink>
 				</NavbarBrand>
+				<div className="grow"></div>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<NextLink
 								className={clsx(
 									linkStyles({ color: "foreground" }),
-									"data-[active=true]:text-primary data-[active=true]:font-medium"
+									"data-[active=true]:text-primary data-[active=true]:font-medium",
+									"text-green-800 font-bold"
 								)}
-								color="foreground"
 								href={item.href}
 							>
 								{item.label}
@@ -62,37 +66,8 @@ export const Navbar = () => {
 				</ul>
 			</NavbarContent>
 
-			<NavbarContent
-				className="hidden sm:flex basis-1/5 sm:basis-full"
-				justify="end"
-			>
-				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.discord} aria-label="Discord">
-						<DiscordIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.github} aria-label="Github">
-						<GithubIcon className="text-default-500" />
-					</Link>
-				</NavbarItem>
-				<NavbarItem className="hidden md:flex">
-					<Button
-						isExternal
-						as={Link}
-						className="text-sm font-normal text-default-600 bg-default-100"
-						href={siteConfig.links.sponsor}
-						startContent={<HeartFilledIcon className="text-danger" />}
-						variant="flat"
-					>
-						Sponsor
-					</Button>
-				</NavbarItem>
-			</NavbarContent>
-
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-				<NavbarMenuToggle />
+				<NavbarMenuToggle className="text-green-800" />
 			</NavbarContent>
 
 			<NavbarMenu>
