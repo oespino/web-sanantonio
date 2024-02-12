@@ -5,46 +5,85 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import { Image } from "@nextui-org/image";
+import NextImage from "next/image";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Make&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
+		<section className="flex flex-col items-center justify-center">
+			<div className="inline-block text-center justify-center py-48 min-h-screen">
+				<h1 className={title({ class: "text-green-800 font-bold", size: "lg" })}>Granja Avícola San Antonio C. B.</h1>
 				<br />
-				<h1 className={title()}>
-					websites regardless of your design experience.
-				</h1>
-				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
+				<h2 className={subtitle({ class: "mt-12 text-green-800 font-bold" })}>
+					Productores de huevos en Gran Canaria. Cría de gallinas ponedoras.
 				</h2>
-			</div>
-
-			<div className="flex gap-3">
 				<Link
-					isExternal
 					href={siteConfig.links.docs}
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
+					className={buttonStyles({ radius: "none", variant: "flat", class: "bg-green-800 px-10 py-6 mt-12 font-bold uppercase" })}
 				>
-					Documentation
-				</Link>
-				<Link
-					isExternal
-					className={buttonStyles({ variant: "bordered", radius: "full" })}
-					href={siteConfig.links.github}
-				>
-					<GithubIcon size={20} />
-					GitHub
+					Contáctanos
 				</Link>
 			</div>
 
-			<div className="mt-8">
-				<Snippet hideSymbol hideCopyButton variant="flat">
-					<span>
-						Get started by editing <Code color="primary">app/page.tsx</Code>
-					</span>
-				</Snippet>
+			<div className="bg-white flex w-full justify-center">
+				<div className="md:flex justify-center max-w-6xl my-8 py-8">
+					<div className="md:w-1/2 my-12 px-12 md:px-0 flex mx-auto">
+						<Image
+							as={NextImage}
+							isBlurred
+							isZoomed
+							width={600}
+							height={400}
+							src="/huevos_portada.jpg"
+							alt="Foto de huevos frescos"
+						>
+						</Image>
+					</div>
+					<div className="md:w-1/2 px-12 flex mx-auto">
+						<div className="mx-auto my-auto">
+							<h2 className="text-green-800 my-4 font-bold text-2xl">
+								Huevos frescos
+							</h2>
+							<p className="text-green-800">
+								Recogemos y repartimos nuestra producción diariamente. De esta forma podemos asegurar que nuestro producto es fresco y siempre se encuentra en perfecto estado de conservación.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="bg-amber-100 flex w-full justify-center">
+				<div className="md:flex justify-center max-w-6xl my-8 py-8">
+					<div className="md:w-1/2 px-12 flex mx-auto">
+						<div className="mx-auto my-auto">
+							<h2 className="text-green-800 my-4 font-bold text-2xl">
+								Cría de gallinas
+							</h2>
+							<p className="text-green-800">
+								Realizamos cría de gallinas para otras explotaciones ganaderas bajo encargo. También vendemos al por menor a particulares, tiendas y pequeñas granjas.							</p>
+						</div>
+					</div>
+					<div className="md:w-1/2 my-12 px-12 md:px-0 flex mx-auto">
+						<Image
+							as={NextImage}
+							isBlurred
+							isZoomed
+							width={600}
+							height={400}
+							src="/gallinas_portada.jpg"
+							alt="Foto de gallinas"
+						>
+						</Image>
+					</div>
+				</div>
+			</div>
+			<div className="flex w-full justify-center my-12">
+				<div className="text-center justify-center max-w-6xl my-8 py-8">
+					<h1 className={title({ class: "text-green-800 font-bold", size: "lg" })}>Elige producto local</h1>
+					<br />
+					<h2 className={subtitle({ class: "mt-12 text-green-800 font-bold" })}>
+						Todos los huevos que se venden dentro de la Unión Europea están obligados a llevar marcado un código que indica la procedencia del mismo. Esto nos permite como consumidores, de forma muy sencilla, elegir un producto local cuando vamos al supermercado.
+					</h2>
+				</div>
 			</div>
 		</section>
 	);
