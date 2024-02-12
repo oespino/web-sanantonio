@@ -26,8 +26,8 @@ export default function Home() {
 			</div>
 
 			<div className="bg-white flex w-full justify-center">
-				<div className="md:flex justify-center max-w-6xl my-8 py-8">
-					<div className="md:w-1/2 my-12 px-12 md:px-0 flex mx-auto">
+				<div className="lg:flex justify-center max-w-6xl my-8 py-8">
+					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto">
 						<Image
 							as={NextImage}
 							isBlurred
@@ -39,8 +39,8 @@ export default function Home() {
 						>
 						</Image>
 					</div>
-					<div className="md:w-1/2 px-12 flex mx-auto">
-						<div className="mx-auto my-auto text-center md:text-left ">
+					<div className="lg:w-1/2 px-12 flex mx-auto">
+						<div className="mx-auto my-auto text-center lg:text-left ">
 							<h2 className="text-green-800 my-4 font-bold text-2xl">
 								Huevos frescos
 							</h2>
@@ -58,9 +58,9 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="bg-amber-100 flex w-full justify-center">
-				<div className="md:flex justify-center max-w-6xl my-8 py-8">
-					<div className="md:w-1/2 px-12 flex mx-auto">
-						<div className="mx-auto my-auto text-center md:text-left ">
+				<div className="lg:flex justify-center max-w-6xl my-8 py-8">
+					<div className="lg:w-1/2 px-12 flex mx-auto">
+						<div className="mx-auto my-auto text-center lg:text-left ">
 							<h2 className="text-green-800 my-4 font-bold text-2xl">
 								Cría de gallinas
 							</h2>
@@ -75,7 +75,7 @@ export default function Home() {
 							</Link>
 						</div>
 					</div>
-					<div className="md:w-1/2 my-12 px-12 md:px-0 flex mx-auto">
+					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto">
 						<Image
 							as={NextImage}
 							isBlurred
