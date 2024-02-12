@@ -11,7 +11,7 @@ import NextImage from "next/image";
 export default function Home() {
 	return (
 		<section className="flex flex-col items-center justify-center">
-			<div className="inline-block text-center justify-center py-48 min-h-screen">
+			<div className="inline-block text-center justify-center py-64 min-h-screen">
 				<h1 className={title({ class: "text-green-800 font-bold", size: "lg" })}>Granja Avícola San Antonio C. B.</h1>
 				<br />
 				<h2 className={subtitle({ class: "mt-12 text-green-800 font-bold" })}>

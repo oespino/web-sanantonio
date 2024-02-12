@@ -46,7 +46,7 @@ export default function RootLayout({
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col min-h-screen overflow-x-hidden">
 						<Navbar />
-						<main className="mx-auto pt-16 w-screen">
+						<main className="mx-auto w-screen">
 							{children}
 						</main>
 						<Footer />
