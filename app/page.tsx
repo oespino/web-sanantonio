@@ -90,6 +90,12 @@ export default function Home() {
 					<h2 className={subtitle({ class: "mt-12 text-green-800 font-bold" })}>
 						Todos los huevos que se venden dentro de la Unión Europea están obligados a llevar marcado un código que indica la procedencia del mismo. Esto nos permite como consumidores, de forma muy sencilla, elegir un producto local cuando vamos al supermercado.
 					</h2>
+					<Link
+						href="/etiquetado-huevos/"
+						className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-6 font-bold uppercase" })}
+					>
+						Saber más
+					</Link>
 				</div>
 			</div>
 		</section>
