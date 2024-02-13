@@ -1,7 +1,7 @@
 import { subtitle, title } from "@/components/primitives";
 import { Image } from "@nextui-org/image";
 import NextImage from "next/image";
-import { ExternalLinkLogo } from "@/components/icons";
+import Link from "next/link";
 
 export default function HuevosPage() {
     return (
@@ -18,7 +18,7 @@ export default function HuevosPage() {
             <p className="mt-6"></p>
             <h1 className={title()}>Huevos</h1>
             <p className="py-4">
-                En nuestra empresa disponemos de dos instalaciones ganaderas avícolas destinadas a la producción de huevos de gallinas. Los huevos son recogidos diariamente y envasados en distintos embalajes según la necesidad de nuestros clientes. Los huevos son vendidos siempre sin pasar por ningún tipo de refrigeración por lo que son de categoría A. Si quieres saber más sobre la categorización y etiquetado de los huevos en la Unión Europea pulsa aquí.
+                En nuestra empresa disponemos de dos instalaciones ganaderas avícolas destinadas a la producción de huevos de gallinas. Los huevos son recogidos diariamente y envasados en distintos embalajes según la necesidad de nuestros clientes. Los huevos son vendidos siempre sin pasar por ningún tipo de refrigeración por lo que son de categoría A. Si quieres saber más sobre la categorización y etiquetado de los huevos en la Unión Europea <Link className="font-bold" href="/etiquetado-huevos/">pulsa aquí</Link>.
             </p>
             <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Bandejas</h2>
             <div className="lg:flex width-full">
