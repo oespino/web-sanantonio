@@ -26,7 +26,6 @@ export default function Home() {
 					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto justify-center">
 						<Image
 							as={NextImage}
-							isBlurred
 							isZoomed
 							width={600}
 							height={400}
@@ -74,7 +73,6 @@ export default function Home() {
 					<div className="lg:w-1/2 my-12 px-12 lg:px-0 flex mx-auto justify-center">
 						<Image
 							as={NextImage}
-							isBlurred
 							isZoomed
 							width={600}
 							height={400}

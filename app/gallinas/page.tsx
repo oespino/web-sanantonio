@@ -31,7 +31,7 @@ export default function GallinasPage() {
                 Para que una cría sea correcta hay muchos factores a tener en cuenta, pero los más importantes son los siguientes:
             </p>
             <p className="py-4">
-                <span className="font-bold">Alojamiento:</span> Respetar el espacio mínimo necesario de cada animal es fundamental, al igual que disponer de un fácil acceso al agua y la alimentación. En el sistema de batería lo más importante es el evitar que la pollita este en contacto con su propia gallinaza (Excrementos), pues es una de los principales focos de infecciones y enfermedades.
+                <span className="font-bold">Alojamiento:</span> Respetar el espacio mínimo necesario de cada animal es fundamental, al igual que disponer de un fácil acceso al agua y la alimentación. En el sistema de batería lo más importante es el evitar que la pollita este en contacto con su propia gallinaza (excrementos), pues es una de los principales focos de infecciones y enfermedades.
             </p>
             <p className="py-4">
                 <span className="font-bold">Bebida:</span> El control de la calidad del agua también es fundamental, al igual que la presión de la instalación, suficiente para que las tetinas puedan moverse con facilidad y el agua fluya naturalmente.
