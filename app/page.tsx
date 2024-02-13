@@ -14,7 +14,7 @@ export default function Home() {
 					Productores de huevos en Gran Canaria. Cría de gallinas ponedoras.
 				</h2>
 				<Link
-					href="/contacto"
+					href="/contacto/"
 					className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-12 font-bold uppercase" })}
 				>
 					Contáctanos
@@ -44,7 +44,7 @@ export default function Home() {
 								Recogemos y repartimos nuestra producción diariamente. De esta forma podemos asegurar que nuestro producto es fresco y siempre se encuentra en perfecto estado de conservación.
 							</p>
 							<Link
-								href="/huevos"
+								href="/huevos/"
 								className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-6 font-bold uppercase" })}
 							>
 								Saber más
@@ -64,7 +64,7 @@ export default function Home() {
 								Realizamos cría de gallinas para otras explotaciones ganaderas bajo encargo. También vendemos al por menor a particulares, tiendas y pequeñas granjas.
 							</p>
 							<Link
-								href="/gallinas"
+								href="/gallinas/"
 								className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 mt-6 font-bold uppercase" })}
 							>
 								Saber más
