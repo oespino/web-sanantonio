@@ -4,10 +4,10 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import { Footer } from "@/components/footer";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
 	title: {
@@ -54,6 +54,7 @@ export default function RootLayout({
 					</div>
 				</Providers>
 				<Analytics />
+				<SpeedInsights />
 			</body>
 		</html>
 	);
