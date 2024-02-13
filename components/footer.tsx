@@ -46,7 +46,7 @@ export const Footer = () => {
                             as={NextImage}
                             width={300}
                             height={200}
-                            src="/logo.png"
+                            src="/logo_inverted.png"
                             alt="Logo de la empresa"
                         >
                         </Image>
