@@ -12,9 +12,16 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
-		template: `%s - ${siteConfig.name}`,
+		template: `%s | ${siteConfig.name}`,
 	},
 	description: siteConfig.description,
+	metadataBase: new URL('https://www.avicolasanantonio.com'),
+	openGraph: {
+		title: siteConfig.name,
+		description: siteConfig.description,
+		type: "website",
+		images: '/apple-touch-icon.png'
+	},
 	icons: {
 		icon: "/favicon.ico",
 		shortcut: "/favicon-16x16.png",
@@ -44,7 +51,7 @@ export default function RootLayout({
 					fontSans.variable
 				)}
 			>
-				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+				<Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
 					<div className="relative flex flex-col min-h-screen overflow-x-hidden">
 						<Navbar />
 						<main className="mx-auto w-screen">

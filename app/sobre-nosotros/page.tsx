@@ -1,4 +1,9 @@
 import { subtitle, title } from "@/components/primitives";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Sobre nosotros"
+};
 
 export default function AboutPage() {
 	return (

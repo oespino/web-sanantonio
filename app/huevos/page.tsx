@@ -1,7 +1,13 @@
 import { subtitle, title } from "@/components/primitives";
 import { Image } from "@nextui-org/image";
+import { Metadata } from "next";
 import NextImage from "next/image";
 import Link from "next/link";
+
+
+export const metadata: Metadata = {
+    title: "Huevos"
+};
 
 export default function HuevosPage() {
     return (

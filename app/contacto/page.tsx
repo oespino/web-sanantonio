@@ -1,5 +1,10 @@
 import { subtitle, title } from "@/components/primitives";
 import { Link } from "@nextui-org/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contacto"
+};
 
 export default function ContactPage() {
     return (

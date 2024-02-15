@@ -2,6 +2,11 @@ import { subtitle, title } from "@/components/primitives";
 import { Image } from "@nextui-org/image";
 import NextImage from "next/image";
 import { ExternalLinkLogo } from "@/components/icons";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Gallinas"
+};
 
 export default function GallinasPage() {
     return (
