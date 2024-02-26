@@ -29,7 +29,7 @@ export default function Home() {
 							isZoomed
 							width={600}
 							height={400}
-							src="/huevos_portada.jpg"
+							src="/huevos_portada.webp"
 							alt="Foto de huevos frescos"
 						>
 						</Image>
@@ -76,7 +76,7 @@ export default function Home() {
 							isZoomed
 							width={600}
 							height={400}
-							src="/gallinas_portada.jpg"
+							src="/gallinas_portada.webp"
 							alt="Foto de gallinas"
 						>
 						</Image>
