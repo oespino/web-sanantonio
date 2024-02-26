@@ -5,7 +5,10 @@ import { ExternalLinkLogo } from "@/components/icons";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Gallinas"
+    title: "Gallinas",
+    alternates: {
+		canonical: "https://www.avicolasanantonio.com/gallinas/"
+	}
 };
 
 export default function GallinasPage() {

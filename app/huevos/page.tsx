@@ -6,7 +6,10 @@ import Link from "next/link";
 
 
 export const metadata: Metadata = {
-    title: "Huevos"
+    title: "Huevos",
+    alternates: {
+		canonical: "https://www.avicolasanantonio.com/huevos/"
+	}
 };
 
 export default function HuevosPage() {

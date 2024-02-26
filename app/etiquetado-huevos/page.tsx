@@ -4,7 +4,10 @@ import NextImage from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Etiquetado del huevo"
+    title: "Etiquetado del huevo",
+    alternates: {
+		canonical: "https://www.avicolasanantonio.com/etiquetado-huevos/"
+	}
 };
 
 export default function EtiquetadoPage() {

@@ -3,6 +3,14 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { title, subtitle } from "@/components/primitives";
 import { Image } from "@nextui-org/image";
 import NextImage from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	alternates: {
+		canonical: "https://www.avicolasanantonio.com/"
+	}
+};
+
 
 export default function Home() {
 	return (

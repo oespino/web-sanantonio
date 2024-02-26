@@ -2,7 +2,10 @@ import { subtitle, title } from "@/components/primitives";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Sobre nosotros"
+    title: "Sobre nosotros",
+    alternates: {
+        canonical: "https://www.avicolasanantonio.com/sobre-nosotros/"
+    }
 };
 
 export default function AboutPage() {

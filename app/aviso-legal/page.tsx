@@ -2,7 +2,10 @@ import { subtitle, title } from "@/components/primitives";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Aviso legal"
+    title: "Aviso legal",
+    alternates: {
+        canonical: "https://www.avicolasanantonio.com/aviso-legal/"
+    }
 };
 
 export default function AvisoLegalPage() {

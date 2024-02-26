@@ -3,7 +3,10 @@ import { Link } from "@nextui-org/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contacto"
+    title: "Contacto",
+    alternates: {
+		canonical: "https://www.avicolasanantonio.com/contacto/"
+	}
 };
 
 export default function ContactPage() {
