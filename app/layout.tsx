@@ -47,7 +47,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-fixed bg-[url('/background.webp')] font-sans antialiased light",
+					"min-h-screen bg-fixed bg-[url('/background.webp')] bg-cover font-sans antialiased light",
 					fontSans.variable
 				)}
 			>
