@@ -75,8 +75,8 @@ export default function TransparenciaPage() {
                 Aunque nuestra empresa no esté obligada a disponer de un canal interno para denuncias
                 según la <a target="_blank" href="https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513" className="font-bold">Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que
                     informen sobre infracciones normativas y de lucha contra la corrupción <ExternalLinkLogo size={16} className="inline mb-1" /></a>,
-                pues no alcanza la cifra de 50 trabajadores, la empresa dispone del correo <a target="_blank" href="mailto:transparencia@avicolasanantonio.com" className="font-bold">transparencia@avicolasanantonio.com</a>
-                como sistema interno de información.
+                pues no alcanza la cifra de 50 trabajadores, la empresa dispone del correo <a target="_blank" href="mailto:transparencia@avicolasanantonio.com" className="font-bold">transparencia@avicolasanantonio.com</a> como
+                sistema interno de información.
             </p>
             <p className="py-4">
                 Este canal permite, si así se desea, la presentación de informaciones sin identificación,
