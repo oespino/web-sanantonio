@@ -55,8 +55,8 @@ export const Footer = () => {
             </section>
             <div className="border-1 border-amber-100">
             </div>
-            <div className="my-4 w-full flex items-center justify-center">
-                <span>Granja Avícola San Antonio C.B. © - </span><a className="px-1" href="/aviso-legal/">Aviso Legal</a> - <a className="pl-1" href="/transparencia/">Portal de transparencia</a>
+            <div className="my-4 w-full flex flex-col md:flex-row items-center justify-center">
+                <span>Granja Avícola San Antonio C.B. ©&nbsp;</span> - <a className="px-1" href="/aviso-legal/">Aviso Legal</a> - <a className="pl-1" href="/transparencia/">Portal de transparencia</a>
             </div>
         </footer>
     )
