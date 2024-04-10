@@ -141,7 +141,7 @@ export default function TransparenciaPage() {
 
 
             <h2 id="ayudasysubvenciones" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Ayudas y subvenciones</h2>
-            <p className="pl-8">
+            <p className="py-4">
                 A continuación se detalla la lista de ayudas y subvenciones recibidas a través de
                 administraciones y organismos públicos para el ejercicio indicado.
             </p>
