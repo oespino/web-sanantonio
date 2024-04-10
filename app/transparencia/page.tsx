@@ -33,7 +33,7 @@ export default function TransparenciaPage() {
             </p>
 
 
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Información Organizativa</h2>
+            <h2 id="informacionorganizativa" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Información Organizativa</h2>
             <h3 className="text-green-800 font-bold text-md">Normativa Aplicable</h3>
             <p className="py-4">
                 Granja Avícola San Antonio C.B. es una Comunidad de Bienes registrada en el Registro de
@@ -59,7 +59,7 @@ export default function TransparenciaPage() {
             </p>
 
 
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Administradores y directivos</h2>
+            <h2 id="administradoresydirectivos" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Administradores y directivos</h2>
             <p className="py-4">
                 La comunidad de bienes se administra a través de una serie de administradores solidarios,
                 aunque se faculta a uno de ellos como representante de la misma. Ninguno de los socios
@@ -70,7 +70,7 @@ export default function TransparenciaPage() {
             </p>
 
 
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Servicios y procedimientos</h2>
+            <h2 id="serviciosyprocedimientos" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Servicios y procedimientos</h2>
             <p className="py-4">
                 Aunque nuestra empresa no esté obligada a disponer de un canal interno para denuncias
                 según la <a target="_blank" href="https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513" className="font-bold">Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que
@@ -87,7 +87,7 @@ export default function TransparenciaPage() {
             </p>
 
 
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Económico – Financiera</h2>
+            <h2 id="economicofinanciera" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Económico – Financiera</h2>
             <h3 className="text-green-800 font-bold text-md">Cuentas anuales de la entidad</h3>
             <p className="py-4">
                 Granja Avícola San Antonio C.B. cumple con sus obligaciones documentales y contables tal y
@@ -105,7 +105,7 @@ export default function TransparenciaPage() {
             </p>
 
 
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Contratos</h2>
+            <h2 id="contratos" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Contratos</h2>
             <p className="py-4">
                 A continuación se pone a disposición en distintos formatos la información relativa a contratos
                 formalizados con administraciones y organismos públicos para los ejercicios indicados, así
@@ -125,7 +125,7 @@ export default function TransparenciaPage() {
             </p>
 
 
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Convenios</h2>
+            <h2 id="convenios" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Convenios</h2>
             <p className="py-4">
                 A continuación se pone a disposición las informaciones relativas a convenio y encomiendas de
                 gestión formalizadas con administraciones y organismos públicos para los ejercicios indicados.
@@ -146,7 +146,7 @@ export default function TransparenciaPage() {
             </p>
 
 
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Ayudas y subvenciones</h2>
+            <h2 id="ayudasysubvenciones" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Ayudas y subvenciones</h2>
             <p className="pl-8">
                 A continuación se detalla la lista de ayudas y subvenciones recibidas a través de
                 administraciones y organismos públicos para el ejercicio indicado.
