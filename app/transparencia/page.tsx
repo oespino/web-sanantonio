@@ -111,9 +111,6 @@ export default function TransparenciaPage() {
                 formalizados con administraciones y organismos públicos para los ejercicios indicados, así
                 como los datos estadísticos relacionados con los mismos.
             </p>
-            <p className="py-4">
-                Ejercicios 2021 - 2023
-            </p>
             <p className="pl-8">
                 No se ha formalizado ningún contrato con ninguna entidad pública.
             </p>
@@ -129,9 +126,6 @@ export default function TransparenciaPage() {
             <p className="py-4">
                 A continuación se pone a disposición las informaciones relativas a convenio y encomiendas de
                 gestión formalizadas con administraciones y organismos públicos para los ejercicios indicados.
-            </p>
-            <p className="py-4">
-                Ejercicios 2021 - 2023
             </p>
             <p className="pl-8">
                 No se ha formalizado ningún convenio y/o encomienda de gestión con ninguna entidad
