@@ -1,4 +1,4 @@
-import { ExternalLinkLogo } from "@/components/icons";
+import { ExternalLinkLogo, CSVLogo } from "@/components/icons";
 import { subtitle, title } from "@/components/primitives";
 import { Metadata } from "next";
 import { Image } from "@nextui-org/image";
@@ -154,6 +154,11 @@ export default function TransparenciaPage() {
             <p className="py-4">
                 A continuación se detalla la lista de ayudas y subvenciones recibidas a través de
                 administraciones y organismos públicos para el ejercicio indicado.
+            </p>
+            <p className="py-4 pl-4">
+                <a target="_blank" href="/subvenciones2024.csv">
+                    <span className="font-bold">· Listado de subvenciones. <CSVLogo size={16} className="inline mb-2 mx-1" /></span>
+                </a>
             </p>
         </div >
     );
