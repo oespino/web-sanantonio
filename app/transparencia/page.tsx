@@ -1,6 +1,8 @@
 import { ExternalLinkLogo } from "@/components/icons";
 import { subtitle, title } from "@/components/primitives";
 import { Metadata } from "next";
+import { Image } from "@nextui-org/image";
+import NextImage from "next/image";
 
 export const metadata: Metadata = {
     title: "Transparencia",
@@ -68,6 +70,14 @@ export default function TransparenciaPage() {
             <p className="py-4">
                 La empresa ha tenido en plantilla 3 empleados la mayor parte del período.
             </p>
+            <Image
+                as={NextImage}
+                width={800}
+                height={200}
+                src="/orgchart.svg"
+                alt="Organigrama de la empresa"
+            >
+            </Image>
 
 
             <h2 id="serviciosyprocedimientos" className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Servicios y procedimientos</h2>
