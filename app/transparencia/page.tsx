@@ -28,6 +28,9 @@ export default function TransparenciaPage() {
                 ciudadanía en general puedan consultar la información sobre nuestra empresa.
             </p>
             <p className="py-4">
+                Más información: <a target="_blank" href="https://transparenciacanarias.org/" className="font-bold">Comisionado de Transparencia del Gobierno de Canarias. <ExternalLinkLogo size={16} className="inline mb-1" /></a>
+            </p>
+            <p className="py-4">
                 Última actualización: 11 de Abril de 2024.
             </p>
             <p className="py-4">
