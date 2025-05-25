@@ -1,7 +1,7 @@
-import { Link } from "@nextui-org/link";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { Link } from "@heroui/link";
+import { button as buttonStyles } from "@heroui/theme";
 import { title, subtitle } from "@/components/primitives";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/image";
 import NextImage from "next/image";
 import { Metadata } from "next";
 
@@ -35,10 +35,11 @@ export default function Home() {
 						<Image
 							as={NextImage}
 							isZoomed
-							width={600}
-							height={400}
+							width={576}
+							height={326}
 							src="/huevos_portada.webp"
 							alt="Foto de huevos frescos"
+							style={{ height: 'auto' }}
 						>
 						</Image>
 					</div>
@@ -82,10 +83,11 @@ export default function Home() {
 						<Image
 							as={NextImage}
 							isZoomed
-							width={600}
-							height={400}
+							width={576}
+							height={326}
 							src="/gallinas_portada.webp"
 							alt="Foto de gallinas"
+							style={{ height: 'auto' }}
 						>
 						</Image>
 					</div>
@@ -106,6 +108,6 @@ export default function Home() {
 					</Link>
 				</div>
 			</div>
-		</section>
+		</section >
 	);
 }

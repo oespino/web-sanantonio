@@ -1,6 +1,6 @@
-import { Link } from "@nextui-org/link";
+import { Link } from "@heroui/link";
 import { EmailLogo, PhoneLogo, ScheduleLogo } from "./icons";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/image";
 import NextImage from "next/image";
 
 export const Footer = () => {
@@ -45,7 +45,7 @@ export const Footer = () => {
                         <Image
                             as={NextImage}
                             width={300}
-                            height={200}
+                            height={71}
                             src="/logo_inverted.png"
                             alt="Logo de la empresa"
                         >

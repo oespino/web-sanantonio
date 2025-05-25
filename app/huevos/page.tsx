@@ -1,5 +1,5 @@
 import { subtitle, title } from "@/components/primitives";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/image";
 import { Metadata } from "next";
 import NextImage from "next/image";
 import Link from "next/link";
@@ -8,8 +8,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
     title: "Huevos",
     alternates: {
-		canonical: "https://www.avicolasanantonio.com/huevos/"
-	}
+        canonical: "https://www.avicolasanantonio.com/huevos/"
+    }
 };
 
 export default function HuevosPage() {
@@ -22,6 +22,7 @@ export default function HuevosPage() {
                 height={200}
                 src="/huevos_banner.jpg"
                 alt="Foto de huevos frescos"
+                style={{ height: 'auto' }}
             >
             </Image>
             <p className="mt-6"></p>
@@ -39,6 +40,7 @@ export default function HuevosPage() {
                         height={600}
                         src="/huevos_bandeja.jpg"
                         alt="Foto de huevos frescos"
+                        style={{ height: 'auto' }}
                     />
                 </div>
                 <div className="lg:w-1/2">
@@ -69,6 +71,7 @@ export default function HuevosPage() {
                         height={600}
                         src="/huevos_estuche.jpg"
                         alt="Foto de huevos frescos"
+                        style={{ height: 'auto' }}
                     />
                 </div>
             </div>

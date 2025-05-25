@@ -1,7 +1,7 @@
 import { ExternalLinkLogo, CSVLogo } from "@/components/icons";
 import { subtitle, title } from "@/components/primitives";
 import { Metadata } from "next";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/image";
 import NextImage from "next/image";
 
 export const metadata: Metadata = {

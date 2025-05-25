@@ -1,5 +1,5 @@
 import { subtitle, title } from "@/components/primitives";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/image";
 import NextImage from "next/image";
 import { ExternalLinkLogo } from "@/components/icons";
 import { Metadata } from "next";
@@ -7,8 +7,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Gallinas",
     alternates: {
-		canonical: "https://www.avicolasanantonio.com/gallinas/"
-	}
+        canonical: "https://www.avicolasanantonio.com/gallinas/"
+    }
 };
 
 export default function GallinasPage() {
@@ -20,7 +20,8 @@ export default function GallinasPage() {
                 width={800}
                 height={200}
                 src="/gallinas_banner.jpg"
-                alt="Foto de huevos frescos"
+                alt="Foto de gallinas"
+                style={{ height: 'auto' }}
             >
             </Image>
             <p className="mt-6"></p>

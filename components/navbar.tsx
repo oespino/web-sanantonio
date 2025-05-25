@@ -7,12 +7,12 @@ import {
 	NavbarBrand,
 	NavbarItem,
 	NavbarMenuItem,
-} from "@nextui-org/navbar";
-import { Link } from "@nextui-org/link";
-import { Image } from "@nextui-org/image";
+} from "@heroui/navbar";
+import { Link } from "@heroui/link";
+import { Image } from "@heroui/image";
 import NextImage from "next/image";
 
-import { link as linkStyles } from "@nextui-org/theme";
+import { link as linkStyles } from "@heroui/theme";
 
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
@@ -36,6 +36,7 @@ export const Navbar = () => {
 							height="50"
 							alt="Logo"
 							src="/logo.png"
+							style={{ height: 'auto' }}
 						/>
 					</NextLink>
 				</NavbarBrand>

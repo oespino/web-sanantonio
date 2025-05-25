@@ -1,13 +1,13 @@
 import { subtitle, title } from "@/components/primitives";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/image";
 import NextImage from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Etiquetado del huevo",
     alternates: {
-		canonical: "https://www.avicolasanantonio.com/etiquetado-huevos/"
-	}
+        canonical: "https://www.avicolasanantonio.com/etiquetado-huevos/"
+    }
 };
 
 export default function EtiquetadoPage() {
@@ -70,7 +70,8 @@ export default function EtiquetadoPage() {
                         width={500}
                         height={600}
                         src="/etiquetado_huevo.jpg"
-                        alt="Foto de huevos frescos"
+                        alt="Foto de etiquetado de huevos"
+                        style={{ height: 'auto' }}
                     />
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import { subtitle, title } from "@/components/primitives";
-import { Link } from "@nextui-org/link";
+import { Link } from "@heroui/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
