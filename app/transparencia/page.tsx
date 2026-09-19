@@ -1,8 +1,6 @@
 import { ExternalLinkLogo, CSVLogo } from "@/components/icons";
 import { subtitle, title } from "@/components/primitives";
 import { pageMetadata } from "@/config/metadata";
-import { Image } from "@heroui/image";
-import NextImage from "next/image";
 
 export const metadata = pageMetadata({
 	title: "Portal de transparencia",
@@ -94,18 +92,21 @@ export default function TransparenciaPage() {
             <p className="py-4">
                 La empresa ha tenido en plantilla 3 empleados la mayor parte del período.
             </p>
-            <div className="overflow-x-auto">
-                <Image
-                    as={NextImage}
-                    width={606}
-                    height={447}
-                    src="/orgchart.svg"
+            {/* Wide chart from 40em up, vertical one below it, so it never needs horizontal
+                scroll. Plain <img> in <picture>: next/image cannot switch sources by media
+                query (and does not optimize SVGs anyway). */}
+            <picture>
+                <source media="(min-width: 40em)" srcSet="/orgchart.svg" />
+                <img
+                    src="/orgchart-movil.svg"
                     alt="Organigrama de la empresa: los propietarios, comuneros Adán Espino Santana (representante) y Agustín Espino Castro, y debajo los empleados"
-                    style={{ height: "auto" }}
-                    classNames={{ img: "min-w-[420px]", wrapper: "min-w-[420px] mx-auto" }}
-                >
-                </Image>
-            </div>
+                    width={300}
+                    height={425}
+                    loading="lazy"
+                    decoding="async"
+                    className="mx-auto h-auto w-full max-w-[320px] aspect-[300/425] sm:max-w-[606px] sm:aspect-[606/447]"
+                />
+            </picture>
 
 
             <h2 id="serviciosyprocedimientos" className={subtitle({ class: "text-green-800 font-bold mt-6 scroll-mt-20" })}>Servicios y procedimientos</h2>

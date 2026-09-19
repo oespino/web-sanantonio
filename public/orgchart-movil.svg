@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 425" width="300" height="425" font-family="Helvetica, Arial, sans-serif">
+  <!-- Vertical version of orgchart.svg for narrow screens (same content and style). -->
+  <g fill="none" stroke="#166534" stroke-width="2" stroke-linecap="round">
+    <!-- PROPIETARIOS frame -->
+    <rect x="10" y="10" width="280" height="283" rx="32"/>
+    <!-- Adán Espino Santana (representante) -->
+    <rect x="25" y="66" width="250" height="115" rx="28.75"/>
+    <!-- link between the two partners -->
+    <line x1="150" y1="181" x2="150" y2="201"/>
+    <!-- Agustín Espino Castro -->
+    <rect x="25" y="201" width="250" height="77" rx="19.25"/>
+    <!-- link to the employees -->
+    <line x1="150" y1="293" x2="150" y2="343"/>
+    <!-- EMPLEADOS -->
+    <rect x="50" y="343" width="200" height="72" rx="20"/>
+  </g>
+  <g fill="#166534" text-anchor="middle">
+    <text x="150" y="50" font-size="30">PROPIETARIOS</text>
+    <text x="150" y="101.4" font-size="20">Adán Espino Santana</text>
+    <text x="150" y="130.4" font-size="20">Comunero</text>
+    <text x="150" y="157.7" font-size="16">(Representante)</text>
+    <text x="150" y="236.4" font-size="20">Agustín Espino Castro</text>
+    <text x="150" y="262.4" font-size="20">Comunero</text>
+    <text x="150" y="388" font-size="26">EMPLEADOS</text>
+  </g>
+</svg>
