@@ -26,7 +26,7 @@ export default function TransparenciaPage() {
         <div className="text-green-800">
             <h1 className={title()}>Portal de transparencia</h1>
             <p className="py-4">
-                A través del Portal de Transparencia de Granja Avícola San Antonio C.B. puede acceder a toda
+                A través del Portal de Transparencia de Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.B. puede acceder a toda
                 la información pública de la empresa. Este portal de transparencia se ha creado siguiendo las
                 indicaciones del Comisionado de Transparencia del Gobierno de Canarias y en cumplimiento
                 con la <a target="_blank" href="https://www.boe.es/eli/es/l/2013/12/09/19/con" className="font-bold underline underline-offset-2">Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y
@@ -61,7 +61,7 @@ export default function TransparenciaPage() {
             <h2 id="informacionorganizativa" className={subtitle({ class: "text-green-800 font-bold mt-6 scroll-mt-20" })}>Información Organizativa</h2>
             <h3 className="text-green-800 font-bold text-md">Normativa Aplicable</h3>
             <p className="py-4">
-                Granja Avícola San Antonio C.B. es una Comunidad de Bienes registrada en el Registro de
+                Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.B. es una Comunidad de Bienes registrada en el Registro de
                 Entidades Jurídicas del Ministerio de Economía y Hacienda, y se rige por las siguientes
                 normativas:
             </p>
@@ -129,7 +129,7 @@ export default function TransparenciaPage() {
             <h2 id="economicofinanciera" className={subtitle({ class: "text-green-800 font-bold mt-6 scroll-mt-20" })}>Económico – Financiera</h2>
             <h3 className="text-green-800 font-bold text-md">Cuentas anuales de la entidad</h3>
             <p className="py-4">
-                Granja Avícola San Antonio C.B. cumple con sus obligaciones documentales y contables tal y
+                Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.B. cumple con sus obligaciones documentales y contables tal y
                 como se establece el artículo 6 de la <a target="_blank" href="https://www.boe.es/eli/es/l/2014/11/27/27/con" className="font-bold underline underline-offset-2">Ley 27/2014, de 27 de noviembre, del Impuesto sobre
                     Sociedades <ExternalLinkLogo size={16} className="inline mb-1" /></a>,
                 y el artículo 35.4 de la <a target="_blank" href="https://www.boe.es/eli/es/l/2003/12/17/58/con" className="font-bold underline underline-offset-2">Ley 58/2003, de 17 de diciembre, General Tributaria <ExternalLinkLogo size={16} className="inline mb-1" /></a>.
@@ -138,7 +138,7 @@ export default function TransparenciaPage() {
             <h3 className="text-green-800 font-bold mt-6 text-md">Informes de auditoría de cuentas y de fiscalización por los órganos de
                 control externo</h3>
             <p className="py-4">
-                Granja Avícola San Antonio C.B. no está obligada a auditar sus cuentas al tratarse de una
+                Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.B. no está obligada a auditar sus cuentas al tratarse de una
                 comunidad de bienes y tal y como se especifica en los artículos anteriormente citados está
                 sometida al régimen de atribución de rentas.
             </p>

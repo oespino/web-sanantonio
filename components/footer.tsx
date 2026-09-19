@@ -56,7 +56,7 @@ export const Footer = () => {
             <div className="border-1 border-amber-100">
             </div>
             <div className="my-4 px-4 w-full flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center">
-                <span>Granja Avícola San Antonio C.B. ©</span>
+                <span>Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.B. ©</span>
                 <span aria-hidden="true" className="hidden md:inline">-</span>
                 <a href="/aviso-legal/">Aviso Legal</a>
                 <span aria-hidden="true" className="hidden md:inline">-</span>

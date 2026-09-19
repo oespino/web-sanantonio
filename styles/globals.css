@@ -4,6 +4,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @layer base {
+  main {
+    overflow-wrap: anywhere;
+  }
+
   h1,
   h2,
   h3 {

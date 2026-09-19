@@ -17,7 +17,7 @@ export default function AvisoLegalPage() {
                 En cumplimiento del artículo 10 de la Ley 34 / 2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos.
             </p>
             <ul className="py-4 pl-8 list-disc">
-                <li><span className="font-bold">Titular:</span> Granja Avícola San Antonio C. B.</li>
+                <li><span className="font-bold">Titular:</span> Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.&nbsp;B.</li>
                 <li><span className="font-bold">NIF:</span>  E35283134</li>
                 <li><span className="font-bold">Domicilio:</span> C/ Andrea Doria 17, 2C, 35118, Las Palmas, España</li>
                 <li><span className="font-bold">Correo electrónico:</span> info@avicolasanantonio.com</li>
@@ -25,7 +25,7 @@ export default function AvisoLegalPage() {
             </ul>
             <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Objeto</h2>
             <p className="py-4">
-                La finalidad del sitio Web tiene por objeto informar sobre Granja Avícola San Antonio, las actividades que realiza y de los servicios que presta.
+                La finalidad del sitio Web tiene por objeto informar sobre Granja&nbsp;Avícola San&nbsp;Antonio, las actividades que realiza y de los servicios que presta.
             </p>
             <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Condiciones de Uso</h2>
             <p className="py-4">

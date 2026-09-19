@@ -17,26 +17,26 @@ export default function Home() {
 		<section className="flex flex-col items-center justify-center">
 			<div className="flex flex-col items-center justify-center min-h-[80vh] w-full px-6 py-24 text-center">
 				<div className="max-w-3xl rounded-3xl bg-white/60 backdrop-blur-sm px-6 py-10 sm:px-12">
-					<h1 className={title({ class: "text-green-800 font-bold text-balance", size: "lg" })}>Granja Avícola San Antonio C.&nbsp;B.</h1>
+					<h1 className={title({ class: "text-green-800 font-bold text-balance text-2xl min-[360px]:text-3xl sm:text-4xl", size: "lg" })}>Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.&nbsp;B.</h1>
 					<h2 className={subtitle({ class: "mt-8 mx-auto text-green-800 font-bold" })}>
-						Productores de huevos en Gran Canaria. Cría de gallinas ponedoras.
+						Productores de huevos en Gran&nbsp;Canaria. Cría de gallinas ponedoras.
 					</h2>
 					<div className="mt-8 flex flex-wrap items-center justify-center gap-4">
 						<Link
 							href="/contacto/"
-							className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-10 py-6 font-bold uppercase" })}
+							className={buttonStyles({ radius: "none", variant: "flat", class: "text-white bg-green-800 px-6 sm:px-10 py-6 font-bold uppercase" })}
 						>
 							Contáctanos
 						</Link>
 						<Link
 							href="tel:+34928781329"
-							className={buttonStyles({ radius: "none", variant: "bordered", class: "text-green-800 border-green-800 bg-white/70 px-10 py-6 font-bold" })}
+							className={buttonStyles({ radius: "none", variant: "bordered", class: "text-green-800 border-green-800 bg-white/70 px-6 sm:px-10 py-6 font-bold" })}
 						>
 							Llámanos: (+34) 928781329
 						</Link>
 					</div>
 					<p className="mt-6 text-sm font-semibold text-green-800">
-						Lunes a Viernes 08:00 - 13:00 · Sábados 08:00 - 11:00 · Ingenio, Gran Canaria
+						<span className="whitespace-nowrap">Lunes a Viernes 08:00 - 13:00</span> · <span className="whitespace-nowrap">Sábados 08:00 - 11:00</span> · <span className="whitespace-nowrap">Ingenio, Gran&nbsp;Canaria</span>
 					</p>
 				</div>
 			</div>

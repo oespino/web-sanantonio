@@ -20,7 +20,7 @@ export default function AboutPage() {
 				Siempre hemos criado nuestras propias pollitas, desde que se reciben con un día de edad hasta que se acaba su ciclo productivo. Esto hace que podamos llevar un control de calidad a lo largo de toda la vida de la gallina, que nos permite conseguir un producto de calidad.
 			</p>
 			<p className="py-4">
-				Actualmente disponemos de dos instalaciones en Ingenio, Gran Canaria, ambas con naves de recría y de puesta. Con el paso de los años hemos actualizado nuestros equipos de automatismo, para estar al día con las nuevas tecnologías, permitiendo cada vez más un control más minucioso y exhaustivo del producto, en su producción, recogida, empaquetado y transporte al destinatario final.
+				Actualmente disponemos de dos instalaciones en Ingenio, Gran&nbsp;Canaria, ambas con naves de recría y de puesta. Con el paso de los años hemos actualizado nuestros equipos de automatismo, para estar al día con las nuevas tecnologías, permitiendo cada vez más un control más minucioso y exhaustivo del producto, en su producción, recogida, empaquetado y transporte al destinatario final.
 			</p>
 			<p className="py-4">
 				Tanto nosotros como nuestro personal cuenta con las cualidades necesarias para garantizar un control de calidad del huevo y la seguridad alimentaria del mismo, desde su producción hasta su venta en cualquiera de los canales de los que disponemos.

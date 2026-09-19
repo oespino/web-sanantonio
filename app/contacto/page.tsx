@@ -12,14 +12,14 @@ export const metadata: Metadata = {
 
 const locations = [
     {
-        name: "La Montañeta",
-        address: ["Cam. Viejo Al Carrizal, S/N", "35250 Ingenio", "Las Palmas"],
+        name: "La Montañeta",
+        address: ["Cam. Viejo Al Carrizal, S/N", "35250 Ingenio", "Las Palmas"],
         mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.594128632325!2d-15.429882323973214!3d27.914425916326774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4098935b909677%3A0x20f387b0e92823a2!2sGranja%20Av%C3%ADcola%20San%20Antonio%20C.B.!5e0!3m2!1ses!2ses!4v1707764070228!5m2!1ses!2ses",
         directionsHref: "https://maps.app.goo.gl/sc3rvoxqGbJwhdA48",
     },
     {
-        name: "Los Moriscos",
-        address: ["Los Moriscos, S/N", "35259 Ingenio", "Las Palmas"],
+        name: "Los Moriscos",
+        address: ["Los Moriscos, S/N", "35259 Ingenio", "Las Palmas"],
         mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3524.843232161968!2d-15.410359323972626!3d27.93745081530395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4099cf451e2ffb%3A0xf365021cf0ec692f!2sGranja%20Av%C3%ADcola%20San%20Antonio%20C.B.%20-%20Los%20Moriscos!5e0!3m2!1ses!2ses!4v1707765829789!5m2!1ses!2ses",
         directionsHref: "https://maps.app.goo.gl/76N4NDxubRveRH359",
     },
