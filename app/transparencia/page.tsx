@@ -102,7 +102,7 @@ export default function TransparenciaPage() {
                     src="/orgchart.svg"
                     alt="Organigrama de la empresa: los propietarios, comuneros Adán Espino Santana (representante) y Agustín Espino Castro, y debajo los empleados"
                     style={{ height: "auto" }}
-                    classNames={{ img: "min-w-[420px]", wrapper: "min-w-[420px]" }}
+                    classNames={{ img: "min-w-[420px]", wrapper: "min-w-[420px] mx-auto" }}
                 >
                 </Image>
             </div>
