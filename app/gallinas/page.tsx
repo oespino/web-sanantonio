@@ -18,7 +18,8 @@ export default function GallinasPage() {
                 as={NextImage}
                 isZoomed
                 width={800}
-                height={200}
+                height={216}
+                preload
                 src="/gallinas_banner.jpg"
                 alt="Foto de gallinas"
                 style={{ height: 'auto' }}

@@ -19,7 +19,8 @@ export default function HuevosPage() {
                 as={NextImage}
                 isZoomed
                 width={800}
-                height={200}
+                height={216}
+                preload
                 src="/huevos_banner.jpg"
                 alt="Foto de huevos frescos"
                 style={{ height: 'auto' }}
@@ -37,7 +38,7 @@ export default function HuevosPage() {
                         as={NextImage}
                         isZoomed
                         width={300}
-                        height={600}
+                        height={450}
                         src="/huevos_bandeja.jpg"
                         alt="Foto de huevos frescos"
                         style={{ height: 'auto' }}
@@ -68,7 +69,7 @@ export default function HuevosPage() {
                         as={NextImage}
                         isZoomed
                         width={300}
-                        height={600}
+                        height={450}
                         src="/huevos_estuche.jpg"
                         alt="Foto de huevos frescos"
                         style={{ height: 'auto' }}

@@ -31,9 +31,10 @@ export const Navbar = () => {
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						<Image
 							as={NextImage}
+							unoptimized
 							radius="none"
 							width="200"
-							height="50"
+							height="47"
 							alt="Logo"
 							src="/logo.png"
 							style={{ height: 'auto' }}
