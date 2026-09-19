@@ -34,7 +34,7 @@ export default function ContactPage() {
                         title="email" underline="always">info@avicolasanantonio.com</Link>.
             </p>
             <p>
-                También puedes venir a visitarnos en nuestro horario comercial (Lunes a Viernes de 08:00 a 13:00 y Sábados de 08:00 a 11:00) a nuestras instalaciones. Ambas se encuentran en Ingenio.
+                También puedes venir a visitarnos en nuestro horario comercial (Lunes a Viernes de 08:00 a 13:00 y Sábados de 08:00 a 10:00) a nuestras instalaciones. Ambas se encuentran en Ingenio.
             </p>
 
             {locations.map((location) => (

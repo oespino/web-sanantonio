@@ -13,7 +13,7 @@ const openingHours = [
 		"@type": "OpeningHoursSpecification",
 		dayOfWeek: "Saturday",
 		opens: "08:00",
-		closes: "11:00",
+		closes: "10:00",
 	},
 ];
 
