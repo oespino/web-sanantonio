@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
+import { fontDisplay, fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import clsx from "clsx";
@@ -91,7 +91,8 @@ export default function RootLayout({
 			<body
 				className={clsx(
 					"min-h-screen bg-fixed bg-[url('/background.webp')] bg-cover font-sans antialiased light",
-					fontSans.variable
+					fontSans.variable,
+					fontDisplay.variable
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>

@@ -16,23 +16,23 @@ export default function AvisoLegalPage() {
             <p className="py-4">
                 En cumplimiento del artículo 10 de la Ley 34 / 2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos.
             </p>
-            <ul className="py-4 pl-8">
-                <li><span className="font-bold">· Titular:</span> Granja Avícola San Antonio C. B.</li>
-                <li><span className="font-bold">· NIF:</span>  E35283134</li>
-                <li><span className="font-bold">· Domicilio:</span> C/ Andrea Doria 17, 2C, 35118, Las Palmas, España</li>
-                <li><span className="font-bold">· Correo electrónico:</span> info@avicolasanantonio.com</li>
-                <li><span className="font-bold">· Sitio Web:</span> www.avicolasanantonio.com</li>
+            <ul className="py-4 pl-8 list-disc">
+                <li><span className="font-bold">Titular:</span> Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.&nbsp;B.</li>
+                <li><span className="font-bold">NIF:</span>  E35283134</li>
+                <li><span className="font-bold">Domicilio:</span> C/ Andrea Doria 17, 2C, 35118, Las Palmas, España</li>
+                <li><span className="font-bold">Correo electrónico:</span> info@avicolasanantonio.com</li>
+                <li><span className="font-bold">Sitio Web:</span> www.avicolasanantonio.com</li>
             </ul>
             <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Objeto</h2>
             <p className="py-4">
-                La finalidad del sitio Web tiene por objeto informar sobre Granja Avícola San Antonio, las actividades que realiza y de los servicios que presta.
+                La finalidad del sitio Web tiene por objeto informar sobre Granja&nbsp;Avícola San&nbsp;Antonio, las actividades que realiza y de los servicios que presta.
             </p>
             <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Condiciones de Uso</h2>
             <p className="py-4">
                 La utilización del sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:
             </p>
-            <ul className="py-4 pl-8">
-                <li><span className="font-bold">· Aviso Legal</span></li>
+            <ul className="py-4 pl-8 list-disc">
+                <li><span className="font-bold">Aviso Legal</span></li>
             </ul>
             <p className="py-4">
                 Si no estuviera conforme con todas y cada una de estas cláusulas y condiciones absténgase de utilizar este sitio Web.
@@ -80,12 +80,12 @@ export default function AvisoLegalPage() {
             <p className="py-4">
                 El Titular sólo obtiene y conserva la siguiente información acerca de los visitantes del Sitio Web:
             </p>
-            <ul className="py-4 pl-8">
-                <li>· El nombre de dominio del proveedor (PSI) y/o dirección IP que les da acceso a la red.</li>
-                <li>· La fecha y hora de acceso al sitio Web.</li>
-                <li>· La dirección de Internet origen del enlace que dirige al sitio Web.</li>
-                <li>· El número de visitantes diarios de cada sección.</li>
-                <li>· La información obtenida es totalmente anónima, y en ningún caso puede ser asociada a un Usuario concreto e identificado.</li>
+            <ul className="py-4 pl-8 list-disc">
+                <li>El nombre de dominio del proveedor (PSI) y/o dirección IP que les da acceso a la red.</li>
+                <li>La fecha y hora de acceso al sitio Web.</li>
+                <li>La dirección de Internet origen del enlace que dirige al sitio Web.</li>
+                <li>El número de visitantes diarios de cada sección.</li>
+                <li>La información obtenida es totalmente anónima, y en ningún caso puede ser asociada a un Usuario concreto e identificado.</li>
             </ul>
             <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Enlaces de interés a otros sitios Web</h2>
             <p className="py-4">

@@ -21,7 +21,7 @@ export default function GallinasPage() {
                 height={216}
                 preload
                 src="/gallinas_banner.jpg"
-                alt="Foto de gallinas"
+                alt="Gallinas ponedoras de plumaje marrón en la granja"
                 style={{ height: 'auto' }}
             >
             </Image>
@@ -61,24 +61,24 @@ export default function GallinasPage() {
             <p className="py-4">
                 Tenemos distintos proveedores de pollitos, y, por tanto, trabajamos con distintas estirpes:
             </p>
-            <a target="_blank" href="http://www.ibertec.es/"><h1 className={title()}><span>Ibertec <ExternalLinkLogo className="inline" /></span></h1></a>
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Lohmann LSL-Classic</h2>
+            <h3 className="mt-10 pt-4 border-t border-green-800/30 text-lg lg:text-xl font-bold"><a target="_blank" rel="noopener noreferrer" href="http://www.ibertec.es/" className="underline underline-offset-4">Ibertec <ExternalLinkLogo className="inline" /></a></h3>
+            <h4 className="mt-6 text-base lg:text-lg font-bold">Lohmann LSL-Classic</h4>
             <p className="py-4">
                 Se trata de una de las gallinas ponedoras más rentable y productivas que hay en el mercado. Produce una gran cantidad de huevos de color blanco con un consumo de pienso muy ajustado. Gallina ideal para todos los sistemas de producción.
             </p>
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Lohmann BROWN-Classic</h2>
+            <h4 className="mt-6 text-base lg:text-lg font-bold">Lohmann BROWN-Classic</h4>
             <p className="py-4">
                 Se trata de una excelente gallina ponedora de huevo moreno que se caracteriza por su gran porcentaje de puesta, extraordinaria persistencia de puesta junto con un color de huevo y una calidad de cáscara incomparable. Además, esta gallina, se adapta a todos los sistemas de producción.
             </p>
-            <a target="_blank" href="https://www.avigan.es/"><h1 className={title()}><span>Avigan Terralta <ExternalLinkLogo className="inline" /></span></h1></a>
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Hy-Line Brown</h2>
+            <h3 className="mt-10 pt-4 border-t border-green-800/30 text-lg lg:text-xl font-bold"><a target="_blank" rel="noopener noreferrer" href="https://www.avigan.es/" className="underline underline-offset-4">Avigan Terralta <ExternalLinkLogo className="inline" /></a></h3>
+            <h4 className="mt-6 text-base lg:text-lg font-bold">Hy-Line Brown</h4>
             <p className="py-4">
                 Productora Prolífica, Huevos Color Marrón Oscuro, Ponedora Resistente
             </p>
             <p className="py-4">
                 La Hy-Line Brown es una de las ponedoras de huevo marrón más balanceada del mundo. Produce más de 355 huevos color marrón oscuro hasta las 80 semanas, tiene buen pico de producción y comienza a poner temprano con un tamaño del huevo óptimo. Estas características combinadas con una eficiencia alimenticia sin igual, con la mejor calidad interior del huevo en el mercado y con una excelente viabilidad le dan a la Hy-Line Brown el balance perfecto, lo que significa mayores ganancias para el productor avícola.
             </p>
-            <h2 className={subtitle({ class: "text-green-800 font-bold mt-6" })}>Hy-Line W-36</h2>
+            <h4 className="mt-6 text-base lg:text-lg font-bold">Hy-Line W-36</h4>
             <p className="py-4">
                 Eficiente, Alto Rendimiento… Más Huevos en el Cartón
             </p>
