@@ -3,13 +3,13 @@ import { button as buttonStyles } from "@heroui/theme";
 import { title, subtitle } from "@/components/primitives";
 import { Image } from "@heroui/image";
 import NextImage from "next/image";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
+import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
-	alternates: {
-		canonical: "https://www.avicolasanantonio.com/"
-	}
-};
+export const metadata = pageMetadata({
+	description: siteConfig.shortDescription,
+	path: "/",
+});
 
 
 export default function Home() {

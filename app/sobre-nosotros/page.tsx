@@ -1,12 +1,11 @@
 import { subtitle, title } from "@/components/primitives";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
 
-export const metadata: Metadata = {
-    title: "Sobre nosotros",
-    alternates: {
-        canonical: "https://www.avicolasanantonio.com/sobre-nosotros/"
-    }
-};
+export const metadata = pageMetadata({
+	title: "Sobre nosotros",
+	description: "Empresa avícola familiar de Ingenio, Gran Canaria, con más de 45 años de experiencia. Criamos nuestras propias pollitas y repartimos huevos a negocios.",
+	path: "/sobre-nosotros/",
+});
 
 export default function AboutPage() {
 	return (

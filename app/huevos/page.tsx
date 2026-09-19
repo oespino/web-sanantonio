@@ -1,16 +1,15 @@
 import { subtitle, title } from "@/components/primitives";
 import { Image } from "@heroui/image";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
 import NextImage from "next/image";
 import Link from "next/link";
 
 
-export const metadata: Metadata = {
-    title: "Huevos",
-    alternates: {
-        canonical: "https://www.avicolasanantonio.com/huevos/"
-    }
-};
+export const metadata = pageMetadata({
+	title: "Huevos frescos en Gran Canaria",
+	description: "Huevos frescos de categoría A recogidos a diario en Ingenio y repartidos por toda la isla. Bandejas para hostelería y estuches para tiendas.",
+	path: "/huevos/",
+});
 
 export default function HuevosPage() {
     return (

@@ -1,15 +1,14 @@
 import { ExternalLinkLogo, CSVLogo } from "@/components/icons";
 import { subtitle, title } from "@/components/primitives";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
 import { Image } from "@heroui/image";
 import NextImage from "next/image";
 
-export const metadata: Metadata = {
-    title: "Transparencia",
-    alternates: {
-        canonical: "https://www.avicolasanantonio.com/transparencia/"
-    }
-};
+export const metadata = pageMetadata({
+	title: "Portal de transparencia",
+	description: "Portal de transparencia de Granja Avícola San Antonio C.B.: información organizativa, económica, contratos, convenios y subvenciones.",
+	path: "/transparencia/",
+});
 
 const sections = [
     { id: "informacionorganizativa", label: "Información organizativa" },

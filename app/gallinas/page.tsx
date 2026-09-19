@@ -2,14 +2,13 @@ import { subtitle, title } from "@/components/primitives";
 import { Image } from "@heroui/image";
 import NextImage from "next/image";
 import { ExternalLinkLogo } from "@/components/icons";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
 
-export const metadata: Metadata = {
-    title: "Gallinas",
-    alternates: {
-        canonical: "https://www.avicolasanantonio.com/gallinas/"
-    }
-};
+export const metadata = pageMetadata({
+	title: "Cría y venta de gallinas ponedoras",
+	description: "Más de 45 años criando gallinas ponedoras en Ingenio, Gran Canaria. Pollitas de 1 día hasta los 3-4 meses para explotaciones, tiendas y particulares.",
+	path: "/gallinas/",
+});
 
 export default function GallinasPage() {
     return (
