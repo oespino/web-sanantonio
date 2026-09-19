@@ -3,13 +3,13 @@ import { button as buttonStyles } from "@heroui/theme";
 import { title, subtitle } from "@/components/primitives";
 import { Image } from "@heroui/image";
 import NextImage from "next/image";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
+import { siteConfig } from "@/config/site";
 
-export const metadata: Metadata = {
-	alternates: {
-		canonical: "https://www.avicolasanantonio.com/"
-	}
-};
+export const metadata = pageMetadata({
+	description: siteConfig.shortDescription,
+	path: "/",
+});
 
 
 export default function Home() {
@@ -18,8 +18,8 @@ export default function Home() {
 			<div className="flex flex-col items-center justify-center min-h-[80vh] w-full px-6 py-24 text-center">
 				<div className="max-w-3xl rounded-3xl bg-white/60 backdrop-blur-sm px-6 py-10 sm:px-12">
 					<h1 className={title({ class: "text-green-800 font-bold text-balance text-2xl min-[360px]:text-3xl sm:text-4xl", size: "lg" })}>Granja&nbsp;Avícola San&nbsp;Antonio&nbsp;C.&nbsp;B.</h1>
-					<h2 className={subtitle({ class: "mt-8 mx-auto text-green-800 font-bold" })}>
-						Productores de huevos en Gran&nbsp;Canaria. Cría de gallinas ponedoras.
+					<h2 className={subtitle({ class: "mt-8 mx-auto text-green-800 font-bold text-balance" })}>
+						<span className="block">Productores de huevos en Gran&nbsp;Canaria</span> <span className="block">Cría de gallinas ponedoras</span>
 					</h2>
 					<div className="mt-8 flex flex-wrap items-center justify-center gap-4">
 						<Link

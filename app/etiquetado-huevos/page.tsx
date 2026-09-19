@@ -1,14 +1,13 @@
 import { subtitle, title } from "@/components/primitives";
 import { Image } from "@heroui/image";
 import NextImage from "next/image";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
 
-export const metadata: Metadata = {
-    title: "Etiquetado del huevo",
-    alternates: {
-        canonical: "https://www.avicolasanantonio.com/etiquetado-huevos/"
-    }
-};
+export const metadata = pageMetadata({
+	title: "Etiquetado y código del huevo",
+	description: "Cómo leer el etiquetado del huevo: categoría, peso (S, M, L y XL) y el código con la forma de cría y el país de producción.",
+	path: "/etiquetado-huevos/",
+});
 
 export default function EtiquetadoPage() {
     return (

@@ -1,14 +1,13 @@
 import { subtitle, title } from "@/components/primitives";
 import { Link } from "@heroui/link";
 import { button as buttonStyles } from "@heroui/theme";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
 
-export const metadata: Metadata = {
-    title: "Contacto",
-    alternates: {
-		canonical: "https://www.avicolasanantonio.com/contacto/"
-	}
-};
+export const metadata = pageMetadata({
+	title: "Contacto y ubicación",
+	description: "Teléfono, correo y mapa de las dos instalaciones de Granja Avícola San Antonio en Ingenio, Gran Canaria. Atendemos de lunes a sábado.",
+	path: "/contacto/",
+});
 
 const locations = [
     {

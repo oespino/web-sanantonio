@@ -1,12 +1,11 @@
 import { subtitle, title } from "@/components/primitives";
-import { Metadata } from "next";
+import { pageMetadata } from "@/config/metadata";
 
-export const metadata: Metadata = {
-    title: "Aviso legal",
-    alternates: {
-        canonical: "https://www.avicolasanantonio.com/aviso-legal/"
-    }
-};
+export const metadata = pageMetadata({
+	title: "Aviso legal",
+	description: "Aviso legal de Granja Avícola San Antonio C.B.: titularidad del sitio web, condiciones de uso, datos personales, cookies y jurisdicción.",
+	path: "/aviso-legal/",
+});
 
 export default function AvisoLegalPage() {
     return (
