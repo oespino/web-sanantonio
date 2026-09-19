@@ -68,7 +68,7 @@ export default function EtiquetadoPage() {
                         as={NextImage}
                         isZoomed
                         width={500}
-                        height={600}
+                        height={344}
                         src="/etiquetado_huevo.jpg"
                         alt="Foto de etiquetado de huevos"
                         style={{ height: 'auto' }}

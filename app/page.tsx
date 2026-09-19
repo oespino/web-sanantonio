@@ -36,7 +36,7 @@ export default function Home() {
 							as={NextImage}
 							isZoomed
 							width={576}
-							height={326}
+							height={324}
 							src="/huevos_portada.webp"
 							alt="Foto de huevos frescos"
 							style={{ height: 'auto' }}
@@ -84,7 +84,7 @@ export default function Home() {
 							as={NextImage}
 							isZoomed
 							width={576}
-							height={326}
+							height={324}
 							src="/gallinas_portada.webp"
 							alt="Foto de gallinas"
 							style={{ height: 'auto' }}
