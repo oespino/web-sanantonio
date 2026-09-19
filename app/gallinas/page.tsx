@@ -19,6 +19,7 @@ export default function GallinasPage() {
                 isZoomed
                 width={800}
                 height={216}
+                preload
                 src="/gallinas_banner.jpg"
                 alt="Foto de gallinas"
                 style={{ height: 'auto' }}

@@ -20,6 +20,7 @@ export default function HuevosPage() {
                 isZoomed
                 width={800}
                 height={216}
+                preload
                 src="/huevos_banner.jpg"
                 alt="Foto de huevos frescos"
                 style={{ height: 'auto' }}

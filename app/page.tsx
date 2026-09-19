@@ -37,6 +37,7 @@ export default function Home() {
 							isZoomed
 							width={576}
 							height={324}
+							preload
 							src="/huevos_portada.webp"
 							alt="Foto de huevos frescos"
 							style={{ height: 'auto' }}
