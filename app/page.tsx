@@ -36,7 +36,7 @@ export default function Home() {
 						</Link>
 					</div>
 					<p className="mt-6 text-sm font-semibold text-green-800">
-						<span className="whitespace-nowrap">Lunes a Viernes 08:00 - 13:00</span> · <span className="whitespace-nowrap">Sábados 08:00 - 11:00</span> · <span className="whitespace-nowrap">Ingenio, Gran&nbsp;Canaria</span>
+						<span className="whitespace-nowrap">Lunes a Viernes 08:00 - 13:00</span> · <span className="whitespace-nowrap">Sábados 08:00 - 10:00</span> · <span className="whitespace-nowrap">Ingenio, Gran&nbsp;Canaria</span>
 					</p>
 				</div>
 			</div>

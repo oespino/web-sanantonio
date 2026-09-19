@@ -17,7 +17,7 @@ export const Footer = () => {
                                 <div>Lunes a Viernes</div>
                                 <div>08:00 - 13:00</div>
                                 <div>Sábados</div>
-                                <div>08:00 - 11:00</div>
+                                <div>08:00 - 10:00</div>
                             </div>
                         </div>
                         <div className="flex m-4 items-center align-middle">
