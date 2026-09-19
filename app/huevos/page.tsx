@@ -22,7 +22,7 @@ export default function HuevosPage() {
                 height={216}
                 preload
                 src="/huevos_banner.jpg"
-                alt="Foto de huevos frescos"
+                alt="Cestas de mimbre y cartones con huevos frescos"
                 style={{ height: 'auto' }}
             >
             </Image>
@@ -40,7 +40,7 @@ export default function HuevosPage() {
                         width={300}
                         height={450}
                         src="/huevos_bandeja.jpg"
-                        alt="Foto de huevos frescos"
+                        alt="Bandeja de cartón con huevos marrones"
                         style={{ height: 'auto' }}
                     />
                 </div>
@@ -71,7 +71,7 @@ export default function HuevosPage() {
                         width={300}
                         height={450}
                         src="/huevos_estuche.jpg"
-                        alt="Foto de huevos frescos"
+                        alt="Estuches de cartón con huevos, vistos desde arriba"
                         style={{ height: 'auto' }}
                     />
                 </div>

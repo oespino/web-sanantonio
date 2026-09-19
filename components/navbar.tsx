@@ -39,7 +39,7 @@ export const Navbar = () => {
 							radius="none"
 							width="200"
 							height="47"
-							alt="Logo"
+							alt="Granja Avícola San Antonio"
 							src="/logo.png"
 							style={{ height: 'auto' }}
 						/>

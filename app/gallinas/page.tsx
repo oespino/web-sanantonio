@@ -21,7 +21,7 @@ export default function GallinasPage() {
                 height={216}
                 preload
                 src="/gallinas_banner.jpg"
-                alt="Foto de gallinas"
+                alt="Gallinas ponedoras de plumaje marrón en la granja"
                 style={{ height: 'auto' }}
             >
             </Image>
